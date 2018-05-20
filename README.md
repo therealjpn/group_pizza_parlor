@@ -1,5 +1,7 @@
 # React Pizza Parlor
 
+Group project for Ty, Sam, Steve, and Atticus.
+
 Before you get started make sure to read through **ALL** requirements and outline a plan for your group. Assign out tasks and use branches to allow team members to work in parallel.
 
 > HINT: Start with your `/api/pizza` GET route to give client side developers something to work with.
