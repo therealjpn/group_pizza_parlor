@@ -2,9 +2,9 @@
 
 Group project for Ty, Sam, Steve, and Atticus.
 
-Before you get started make sure to read through **ALL** requirements and outline a plan for your group. Assign out tasks and use branches to allow team members to work in parallel.
+Assign out tasks and use branches to allow team members to work in parallel.
 
-> HINT: Start with your `/api/pizza` GET route to give client side developers something to work with.
+Start with your `/api/pizza` GET route to give client side developers something to work with.
 
 ### Setup
 
@@ -21,32 +21,23 @@ Now that the server is running, open a new terminal tab with `cmd + t` and start
 npm run client
 ```
 
-## BASE REQUIREMENTS
+## MVP REQUIREMENTS
 
-Your client has asked your team to build a pizza ordering system. They have provided a list of pizzas they currently offer in SQL format (`data.sql`). Your team should build out the following views.
+Build a pizza ordering system. A list of pizzas currently offered is in SQL format (`data.sql`).
+
+Build out the following views:
 
 ### MENU
 
 Display all of the pizzas on the screen. Allow users to increase or decrease the quantity of each pizza they would like to order. Show the total cost of items in the cart in the top right of this page.
 
-![menu page](wireframes/screen-one.png)
-
 ### CHECKOUT
 
 Include an input field for the users name and display a table of pizzas they have added to the cart. Users should not be able to modify item totals on this screen. When they click checkout, the users *name* and *order total* should be sent to the server and saved in the database.
 
-> NOTE: **As a stretch goal**, add a junction table and save each pizza that has been added to the order. 
-
-![checkout page](wireframes/screen-two.png)
-
 ### ORDERS
 
 This page **should not** appear in the navigation bar. Eventually the client would like to add authentication but for now, it will be available to anyone with the url [http://localhost:3000/orders](http://localhost:3000/orders). This page will display the name, time and order total for each of the orders placed.
-
-> NOTE: **Base mode** does not require a JOIN. Just show all records from the orders table.
-
-![orders page](wireframes/screen-three.png)
-
 
 ## STRETCH GOALS
 
